@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.kaivanshah.assignment63.Fragements.FirstFragment" android:background="@color/colorPink">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:layout_gravity="top" android:layout_weight="1" android:src="@mipmap/youtube"  />
+    <RelativeLayout android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingTop="@dimen/fragement_vertical_margin">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="20sp" android:gravity="center_vertical" android:id="@+id/tv_Youtube_Title" android:text="@string/Youtube_Title" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:textSize="15sp" android:gravity="center_vertical" android:text="@string/Youtube_Desc"  android:layout_below="@id/tv_Youtube_Title" />
+    </RelativeLayout>
+
+</LinearLayout>

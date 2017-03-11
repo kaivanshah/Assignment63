@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment63</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Youtube_Title">Youtube</string>
+    <string name="Youtube_Desc">Youtube Description</string>
+    <string name="Blogger_Title">Blogger</string>
+    <string name="Blogger_Desc">Blogger Description</string>
+</resources>
